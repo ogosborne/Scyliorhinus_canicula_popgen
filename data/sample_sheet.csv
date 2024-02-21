@@ -1,0 +1,15 @@
+sample,fastq_1,fastq_2,strandedness,pop,subpop,tissue,PROJ,SAM,EXP,RUN,Read_len
+M_ERR6338403,data/rnaseq/ERR6338403_1.fastq.gz,data/rnaseq/ERR6338403_2.fastq.gz,reverse,Med,Med,stage_22,PRJEB36280,SAMEA5787389,ERX5970080,ERR6338403,151
+M_ERR6338409,data/rnaseq/ERR6338409_1.fastq.gz,data/rnaseq/ERR6338409_2.fastq.gz,reverse,Med,Med,stage_24,PRJEB36280,SAMEA5787394,ERX5970086,ERR6338409,151
+M_ERR6338415,data/rnaseq/ERR6338415_1.fastq.gz,data/rnaseq/ERR6338415_2.fastq.gz,reverse,Med,Med,stage_26,PRJEB36280,SAMEA5787400,ERX5970092,ERR6338415,151
+M_ERR6338421,data/rnaseq/ERR6338421_1.fastq.gz,data/rnaseq/ERR6338421_2.fastq.gz,reverse,Med,Med,stage_30,PRJEB36280,SAMEA5787407,ERX5970098,ERR6338421,151
+M_ERR6338422,data/rnaseq/ERR6338422_1.fastq.gz,data/rnaseq/ERR6338422_2.fastq.gz,reverse,Med,Med,testis,PRJEB36280,SAMEA5787406,ERX5970099,ERR6338422,151
+M_ERR6338427,data/rnaseq/ERR6338427_1.fastq.gz,data/rnaseq/ERR6338427_2.fastq.gz,reverse,Med,Med,stage_31,PRJEB36280,SAMEA5787411,ERX5970104,ERR6338427,151
+M_ERR6338430,data/rnaseq/ERR6338430_1.fastq.gz,data/rnaseq/ERR6338430_2.fastq.gz,reverse,Med,Med,testis,PRJEB36280,SAMEA5787415,ERX5970107,ERR6338430,151
+M_ERR6338431,data/rnaseq/ERR6338431_1.fastq.gz,data/rnaseq/ERR6338431_2.fastq.gz,reverse,Med,Med,ovary,PRJEB36280,SAMEA5787417,ERX5970108,ERR6338431,151
+M_ERR6338447,data/rnaseq/ERR6338447_1.fastq.gz,data/rnaseq/ERR6338447_2.fastq.gz,reverse,Med,Med,stage_12,PRJEB36280,SAMEA5787433,ERX5970124,ERR6338447,151
+A_SRR1514129,data/rnaseq/SRR1514129_1.fastq.gz,data/rnaseq/SRR1514129_2.fastq.gz,unstranded,Atl,North_Wales,Brain,PRJNA255185,SAMN02910595,SRX651773,SRR1514129,101
+A_SRR1514130,data/rnaseq/SRR1514130_1.fastq.gz,data/rnaseq/SRR1514130_2.fastq.gz,unstranded,Atl,North_Wales,Liver,PRJNA255185,SAMN02910596,SRX651774,SRR1514130,101
+A_SRR1514131,data/rnaseq/SRR1514131_1.fastq.gz,data/rnaseq/SRR1514131_2.fastq.gz,unstranded,Atl,North_Wales,Pancreas,PRJNA255185,SAMN02910597,SRX651775,SRR1514131,150
+A_SRR8179289,data/rnaseq/SRR8179289_1.fastq.gz,data/rnaseq/SRR8179289_2.fastq.gz,unstranded,Atl,Brittany,immature_ovary,PRJNA504730,SAMN10397675,SRX4999364,SRR8179289,100
+A_SRR8179291,data/rnaseq/SRR8179291_1.fastq.gz,data/rnaseq/SRR8179291_2.fastq.gz,unstranded,Atl,Brittany,immature_testis,PRJNA504730,SAMN10397604,SRX4999362,SRR8179291,100
