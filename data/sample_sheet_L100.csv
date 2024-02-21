@@ -1,0 +1,4 @@
+﻿sample,fastq_1,fastq_2,strandedness,pop,subpop,tissue,PROJ,SAM,EXP,RUN,Read_len
+A_SRR8179289,data/rnaseq/SRR8179289_1.fastq.gz,data/rnaseq/SRR8179289_2.fastq.gz,unstranded,Atl,Brittany,immature_ovary,PRJNA504730,SAMN10397675,SRX4999364,SRR8179289,100
+A_SRR8179290,data/rnaseq/SRR8179290_1.fastq.gz,data/rnaseq/SRR8179290_2.fastq.gz,unstranded,Atl,Brittany,mature_testis,PRJNA504730,SAMN10397604,SRX4999363,SRR8179290,100
+A_SRR8179291,data/rnaseq/SRR8179291_1.fastq.gz,data/rnaseq/SRR8179291_2.fastq.gz,unstranded,Atl,Brittany,immature_testis,PRJNA504730,SAMN10397604,SRX4999362,SRR8179291,100

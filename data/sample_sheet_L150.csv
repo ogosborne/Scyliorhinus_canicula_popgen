@@ -1,0 +1,2 @@
+﻿sample,fastq_1,fastq_2,strandedness,pop,subpop,tissue,PROJ,SAM,EXP,RUN,Read_len
+A_SRR1514131,data/rnaseq/SRR1514131_1.fastq.gz,/scratch/b.wns19nly/shark_genomics/data/rnaseq/SRR1514131_2.fastq.gz,unstranded,Atl,North_Wales,Pancreas,PRJNA255185,SAMN02910597,SRX651775,SRR1514131,150
