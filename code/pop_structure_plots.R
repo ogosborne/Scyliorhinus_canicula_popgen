@@ -1,8 +1,4 @@
-library(tidyverse) # version: 2.0.0
-library(stringr) # version 1.5.1
-
 ###### PCA
-
 # load pca
 pca <- read.table("results/pca/pca.eigenvec", header = FALSE)
 eigenval <- scan("results/pca/pca.eigenval")
@@ -17,7 +13,7 @@ rownames(metadata) <- metadata$sample
 subpop_names <- c(Brittany = "English Channel", North_Wales = "N. Wales", Med = "Mediterranean")
 subpop <- subpop_names[metadata[pca$ind, "subpop"]]
 # remake pca
-pca <- as_tibble(data.frame(pca, pop, subpop, tissue))
+pca <- data.frame(pca, subpop)
 # convert eigenvalues to percentage variance explained
 pve <- data.frame(PC = 1:10, pve = eigenval/sum(eigenval)*100)
 
@@ -28,7 +24,7 @@ colnames(cv) <- c("K", "CVE")
 
 # K2
 K2 <- as.matrix(read.table("results/admixture/thin_100kb.2.Q"))
-rownames(K2) <- names
+#rownames(K2) <- names
 K2 <- t(K2)
 
 ###### Plots
@@ -38,7 +34,7 @@ layout(matrix(c(1,3,3,
               byrow = T,
               ncol = 3
               ))
-par(mar = c(2,8,2,0), pty="m")
+par(mar = c(6,8,5,0), pty="m", xpd = T)
 # plot admixture plot
 barplot(K2, las = 2, col = c("red","blue"), main = "",  cex.axis = 1.3,  cex.lab = 1.5, names.arg = rep("", 14), ylab = "Ancestry")
 lines(x = c(0.2,2*1.2+1.2), y = c(-0.03, -0.03), col = "darkblue", lwd = 4)
@@ -75,4 +71,3 @@ plot(pca$PC3, pca$PC4, col = col[pca$subpop],
 )
 # PCA PVE
 plot(pve$PC, pve$pve, type = "b", xlab = "PC", ylab = "Percent variance explained")
-
