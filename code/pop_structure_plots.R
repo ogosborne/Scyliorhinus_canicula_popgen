@@ -1,5 +1,5 @@
-library(tidyverse)
-library(stringr)
+library(tidyverse) # version: 2.0.0
+library(stringr) # version 1.5.1
 
 ###### PCA
 
